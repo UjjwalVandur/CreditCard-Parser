@@ -12,7 +12,7 @@ export async function POST(req) {
   formData.append("file", file);
 
   // Call Python backend
-  const res = await fetch("http://localhost:8000/parse", {
+  const res = await fetch("https://creditcard-parser.onrender.com", {
     method: "POST",
     body: formData,
   });
