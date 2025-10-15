@@ -32,7 +32,7 @@ A full-stack web application that parses PDF credit card statements and extracts
 ---
 
 ## Backend Setup
-cd backend
+cd backend<br>
 python -m venv venv
 ### Activate virtual environment
 ## Windows:
